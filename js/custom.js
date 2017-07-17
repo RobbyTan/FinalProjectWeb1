@@ -7,7 +7,7 @@ jQuery('document').ready(function($) {
 		setTimeout(function(){
 			$('body').addClass('loaded');
 			$('h1').css('color','#222222');
-		}, 6000);
+		}, 2000);
 	// end preloder ready function code
 
 		
@@ -43,12 +43,6 @@ jQuery('document').ready(function($) {
 	/*         Countdown                       */
 	/*=========================================*/	
 
-		$('.countdown').downCount({
-			date: '01/23/2016 12:00:00', // Change this date and time
-			offset: +10
-		}, function () {
-			alert('WOOT WOOT, done!');  // Finish Message
-		});
 
 	
 	/*=========================================*/
