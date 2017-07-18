@@ -254,7 +254,7 @@
 <div style="clear:both;"></div>	
 
 <!--
-## section4  Coutact us area
+## section4  Request area
 =============================================================================== -->				
 
 <div class="section" id="section4"> <!-- Section4 -->
@@ -280,7 +280,54 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				
+				<div class="col-sm-6">
+					<!-- form section -->	
+					<div id="form-wrapper">
+						<form id="form">
+							<input class="email_input requiredField name" id="name" name="name" type="text" placeholder="Enter Your Full Name" >
+							<input class="email_input requiredField email" id="email" name="email" type="text" placeholder="Enter Your Email"><br />
+							<input class="email_input requiredField songs" id="songs" type="text" placeholder="Enter The Title of Your Song" >
+							<input class="email_input requiredField artist" id="artist" type="text" placeholder="Enter The Artist of Your Song" >
+							<button class="email_submit email_margin_top submit" id="btnSubmitSong">Submit</button>
+						</form>
+					</div>	
+				</div>
+				<!-- end form section -->
+				<div class="col-sm-6">	
+					<button><h3 class="btn_request" id="btnEdit"> Edit/Update</h3></button>
+					<button><h3 class="btn_request" id="btnNew"> New</h3></button>
+					<button><h3 class="btn_request" id="btnDelete"> Delete</h3></button>
+					<table>
+						<colgroup>
+						<col id="name">
+						<col id="email">
+						<col id="songs">
+						<col id="artist">
+					</colgroup>
+					<thead>
+						<tr><th colspan="2" class="bottom top">Nama</th>
+							<th colspan="2" class="bottom top">E-mail</th>
+							<th colspan="2" class="bottom top">Judul Lagu</th>
+							<th colspan="2" class="bottom top">Penyanyi</th>
+						</tr>
+					</thead>
+					<tbody>	
+						<tr>
+								<td colspan="2" >aaaa</td>
+								<td colspan="2" >bbbb</td>
+								<td colspan="2" >cccc</td>
+								<td colspan="2" >dddd</td>	
+						</tr>
+						<tr>
+								<td colspan="2" >aaaa</td>
+								<td colspan="2" >bbbb</td>
+								<td colspan="2" >cccc</td>
+								<td colspan="2" >dddd</td>	
+						</tr>
+					</tbody>
+					<!-- <caption>Daftar Mahasiswa</caption> -->
+				</table>
+			</div>
 			</div>
 		</div>
 	</div>
