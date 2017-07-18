@@ -1,0 +1,98 @@
+body{
+	background: transparent url("plate.png") no-repeat fixed 0% 0% / cover;
+	font-family : Source Sans Pro;
+	text-align : center;
+	background-size:100% 100%;
+}
+h1{
+	text-align: center;
+	color: white;
+}
+li{
+	font-size: 25px;
+}
+button:hover{
+	font-size: 25px;
+	color: white;
+}
+.container{
+	padding-top: 30px;
+	margin: 0 auto;
+	color: white;
+}
+button{
+	background-color: transparent;
+	border: none;
+}
+.fa-play-circle-o:before {
+	font-size: 150px;
+	/*display: none;*/
+}
+.fa-pause:before{
+	font-size: 150px;
+}
+.fa-chevron-circle-right:before{
+	font-size: 150px;
+	padding-left: 15%;
+}
+.fa-chevron-circle-left:before{
+	font-size: 150px;
+	padding-right: 15%;
+}
+.fa-volume-down:before{
+	font-size: 50px;
+}
+.fa-volume-up:before{
+	font-size: 50px;
+}
+.toolkit{
+	padding-top: 50px;
+	/*	padding-left: 30%;*/
+	text-align: center;
+	display: none;
+	color: white;
+}
+.volume{
+	text-align: right;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	color: white;
+}
+button:focus {outline:0;}
+#btnPlay{
+	display: none;
+}
+#korean{
+	display: none;
+}
+#american{
+	display: none;
+}
+#gotTalent{
+	display: none;
+}
+#title{
+	padding-top: 30px;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	display: none;
+}
+.btn_menu {
+	border : 1px solid #ddd;
+	border-radius : 10px;
+	width : 158px;
+	background : none;
+	z-index : 1;
+	color : #fff;
+	font-weight : bold;
+	text-align: left;
+	position: fixed;
+	bottom: 0;
+	color: white;
+	padding-left: 3%;
+}
+a button{
+	color: white;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mp3 Player</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.28/howler.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="text">Choose Your Song :</h1>
+		<div class="row">
+			<div class="container col-lg-3">
+				<button><h2 id="koreanHead">Korean</h2></button>
+				<ul id="korean">
+					<li><button id="DreamHigh" class="0">DreamHigh</button></li>
+					<li><button id="Dreaming" class="1">Dreaming</button></li>
+					<li><button id="Maybe" class="2">Maybe</button></li>
+
+				</ul>
+			</div>
+			<div class="container col-lg-3">
+				<button><h2 id="americanHead">America</h2></button>
+				<ul id="american">
+					<li><button id="StoryOfMyLife" class="3">Story Of My Life</button></li>
+					<li><button id="Closer" class="4">Closer</button></li>
+				</ul>
+			</div>
+			<div class="container col-lg-3">
+				<button><h2 id="gotTalentHead">Got Talent</h2></button>
+				<ul id="gotTalent">
+					<li><button id="Hurt" class="5">Hurt</button></li>
+					<li><button id="Try" class="6">Try</button></li>
+				</ul>
+			</div>
+			<div class="container col-lg-3">
+				<a href="../Main.html"><button><h2>Request A Song</h2></button></a>
+			</div>
+		</div>
+		<h3 id="title">Oi</h3>
+		<div class="toolkit">
+			<button><i class="fa fa-chevron-circle-left" aria-hidden="true" id="btnBefore"></i></button>
+			<button><i class="fa fa-pause" aria-hidden="true" id="btnPause"></i></button>
+			<span id="btnPlay"><button><i class="fa fa-play-circle-o" aria-hidden="true"></i></button></span>
+			<button><i class="fa fa-chevron-circle-right" aria-hidden="true" id="btnAfter"></i></button>
+		</div>
+	</div>
+	<a href="../Main.html"><h3 class="btn_menu"> Home</h3></a>
+	<div class="volume">
+		<button id="btnDown"><i class="fa fa-volume-down" aria-hidden="true"></i></button>
+		<button id="btnUp"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
