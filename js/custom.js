@@ -16,7 +16,7 @@ jQuery('document').ready(function($) {
 	/*=========================================*/
 	
 	$('#mc-form').ajaxChimp({
-		url: 'http://doelit.us10.list-manage.com/subscribe/post?u=b02e4f21e264536eff4820875&amp;id=4d57faf2cb'
+		url: 'http://eepurl.com/cWCd4L'
 	});/*here Replace Your AjaxChimp Subscription Link */
 	
 	
