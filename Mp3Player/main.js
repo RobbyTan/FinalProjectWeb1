@@ -4,6 +4,7 @@ var sound;
 var volume=0.1;
 var playing=0;
 $("#DreamHigh").on("click",function(){
+	playing=0;
 	play();
 })
 $("#Dreaming").on("click",function(){
