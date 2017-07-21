@@ -1,0 +1,25 @@
+canvas{
+	width: 100%;
+	background: black;
+	height: 100%
+}
+body,html{
+	margin: 0;
+	height: 100%;
+}
+/*di canvas tidak boleh ada comment*/
+/*pakai view.size untuk respomsive*/
+/*scale untuk membuat animasi shrink*/
+/*kalau mw suara pakai howler js*/
+/*	function onKeyDown(event) {
+		new Path.Circle(new Point(Math.floor(Math.random()*view.size.width), Math.random()*view.size.height), 10).fillColor = 'green';
+		console.log(view.size.height)
+		console.log(view.size.width)
+	}
+	var animateCircle=new Path.Circle(300,300,100)
+	animateCircle.fillColor='red';
+	function onFrame(event) {
+	animateCircle.fillColor.hue += 1;
+	animateCircle.scale(0.9)
+}
+*/
